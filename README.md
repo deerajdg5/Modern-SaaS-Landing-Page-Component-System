@@ -173,3 +173,34 @@ The project is compatible with any platform that supports Next.js:
 - Prettier for code formatting
 - Husky for git hooks (optional)
 
+### AI Tools Used
+- Primary tools:
+- Microsoft Copilot
+- GitHub Copilot (for inline coding assistance)
+- Key use cases:
+- Component architecture planning
+- UI/UX design guidance based on 2025 trends (glassmorphism, Framer Motion)
+- Writing TypeScript + Tailwind CSS code for reusable components
+- Structuring Next.js 14 App Router layout
+- Suggesting performance and SEO optimizations
+- Linking to public GitHub starter repo
+
+### Sample Prompts
+- “Task B: Modern SaaS Landing Page & Component System — Read  it properly and give a step by step process to build it.”
+- “make it more interactable”
+- “Give me a reusable component system for pricing cards, testimonials, and a responsive FAQ.”
+
+ ### AI vs Manual Work Split
+- AI-generated (~70%):
+- Initial layout and component code for HeroBanner, FeatureCard, PricingCard, TestimonialsCarousel, FAQItem, and Button
+- Folder structure and architectural blueprint
+- Suggestions for animation libraries, form handling, and pricing calculator logic
+- Manual coding (~30%):
+- Cloning GitHub repo and setting up environment
+- Project-specific branding, copywriting, and image asset integration
+- Connecting pricing calculator logic to frontend inputs
+- Deployment configuration, SEO tags, and Lighthouse tuning
+- Customization:
+- Refined component styles and colors to match branding aesthetics
+- Adjusted animations and timings for smoother UX
+- Integrated business-specific content (ADmyBRAND features, testimonials)
